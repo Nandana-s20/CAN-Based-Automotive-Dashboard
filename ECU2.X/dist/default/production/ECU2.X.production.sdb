@@ -1,0 +1,438 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4580 ]
+[d frameptr 4065 ]
+"30 C:\Users\nanda\OneDrive\Desktop\micro\ECU2.X\can.c
+[e E10489 _CanOpMode `uc
+e_can_op_mode_normal 0
+e_can_op_mode_loop 64
+e_can_op_mode_config 128
+]
+"62 C:\Users\nanda\OneDrive\Desktop\micro\ECU2.X\main.c
+[e E10483 . `uc
+e_ind_off 0
+e_ind_left 1
+e_ind_right 2
+e_ind_hazard 3
+]
+"16 C:\Users\nanda\OneDrive\Desktop\micro\ECU2.X\ecu2_sensor.c
+[e E10483 . `uc
+e_ind_off 0
+e_ind_left 1
+e_ind_right 2
+e_ind_hazard 3
+]
+"12 C:\Users\nanda\OneDrive\Desktop\micro\ECU2.X\adc.c
+[v _init_adc init_adc `(v  1 e 1 0 ]
+"51
+[v _read_adc read_adc `(us  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\almod.c
+[v ___almod __almod `(l  1 e 4 0 ]
+"9 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\aodiv.c
+[v ___aodiv __aodiv `(o  1 e 8 0 ]
+"9 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\aomod.c
+[v ___aomod __aomod `(o  1 e 8 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\atdiv.c
+[v ___atdiv __atdiv `(m  1 e 3 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\atmod.c
+[v ___atmod __atmod `(m  1 e 3 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+"9 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\lodiv.c
+[v ___lodiv __lodiv `(uo  1 e 8 0 ]
+"9 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\lomod.c
+[v ___lomod __lomod `(uo  1 e 8 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\ltdiv.c
+[v ___ltdiv __ltdiv `(um  1 e 3 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\ltmod.c
+[v ___ltmod __ltmod `(um  1 e 3 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul24.c
+[v ___tmul __tmul `(um  1 e 3 0 ]
+"15 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"23 C:\Users\nanda\OneDrive\Desktop\micro\ECU2.X\can.c
+[v _init_can init_can `(v  1 e 1 0 ]
+"58
+[v _get_msg_id_std get_msg_id_std `(us  1 s 2 get_msg_id_std ]
+"65
+[v _set_msg_id_std set_msg_id_std `(v  1 s 1 set_msg_id_std ]
+"72
+[v _can_transmit can_transmit `(v  1 e 1 0 ]
+"12 C:\Users\nanda\OneDrive\Desktop\micro\ECU2.X\digital_keypad.c
+[v _init_digital_keypad init_digital_keypad `(v  1 e 1 0 ]
+"17
+[v _read_digital_keypad read_digital_keypad `(uc  1 e 1 0 ]
+"17 C:\Users\nanda\OneDrive\Desktop\micro\ECU2.X\ecu2_sensor.c
+[v _get_rpm get_rpm `(ul  1 e 4 0 ]
+"37
+[v _process_indicator process_indicator `(E10483  1 e 1 0 ]
+"21 C:\Users\nanda\OneDrive\Desktop\micro\ECU2.X\main.c
+[v _init_config init_config `(v  1 e 1 0 ]
+"36
+[v _main main `(i  1 e 2 0 ]
+"15 C:\Users\nanda\OneDrive\Desktop\micro\ECU2.X\timer0.c
+[v _init_timer0 init_timer0 `(v  1 e 1 0 ]
+"39
+[v _isr isr `IIH(v  1 e 1 0 ]
+"12 C:\Users\nanda\OneDrive\Desktop\micro\ECU2.X\uart.c
+[v _init_uart init_uart `(v  1 e 1 0 ]
+"58
+[v _putch putch `(v  1 e 1 0 ]
+"79
+[v _getch getch `(uc  1 e 1 0 ]
+"4423 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc/pic18f4580.h
+[v _RXFCON0 RXFCON0 `VEuc  1 e 1 @3540 ]
+"20964
+[v _TXB0SIDH TXB0SIDH `VEuc  1 e 1 @3905 ]
+"21076
+[v _TXB0SIDL TXB0SIDL `VEuc  1 e 1 @3906 ]
+"21168
+[v _TXB0EIDH TXB0EIDH `VEuc  1 e 1 @3907 ]
+"21280
+[v _TXB0EIDL TXB0EIDL `VEuc  1 e 1 @3908 ]
+"21392
+[v _TXB0DLC TXB0DLC `VEuc  1 e 1 @3909 ]
+"21470
+[v _TXB0D0 TXB0D0 `VEuc  1 e 1 @3910 ]
+"23529
+[v _RXB0CON RXB0CON `VEuc  1 e 1 @3936 ]
+[s S57 . 1 `uc 1 FILHIT0 1 0 :1:0 
+`uc 1 JTOFF_FILHIT1 1 0 :1:1 
+`uc 1 RXB0DBEN_FILHIT2 1 0 :1:2 
+`uc 1 RXRTRRO_FILHIT3 1 0 :1:3 
+`uc 1 FILHIT4 1 0 :1:4 
+`uc 1 RXM0_RTRRO 1 0 :1:5 
+`uc 1 RXM1 1 0 :1:6 
+`uc 1 RXFUL 1 0 :1:7 
+]
+"23582
+[s S66 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 JTOFF 1 0 :1:1 
+`uc 1 RXB0DBEN 1 0 :1:2 
+`uc 1 RXRTRRO 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 RXM0 1 0 :1:5 
+]
+[s S73 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 FILHIT1 1 0 :1:1 
+`uc 1 FILHIT2 1 0 :1:2 
+`uc 1 FILHIT3 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 RTRRO 1 0 :1:5 
+]
+[s S80 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 RXBODBEN 1 0 :1:2 
+]
+[s S83 . 1 `uc 1 RXB0FILHIT0 1 0 :1:0 
+`uc 1 RXB0FILHIT1 1 0 :1:1 
+`uc 1 RXB0FILHIT2 1 0 :1:2 
+`uc 1 RXB0FILHIT3 1 0 :1:3 
+`uc 1 RXB0FILHIT4 1 0 :1:4 
+`uc 1 RXB0M0 1 0 :1:5 
+`uc 1 RXB0M1 1 0 :1:6 
+`uc 1 RXB0FUL 1 0 :1:7 
+]
+[s S92 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 RXB0RTRR0 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 RXB0RTRRO 1 0 :1:5 
+]
+[u S97 . 1 `S57 1 . 1 0 `S66 1 . 1 0 `S73 1 . 1 0 `S80 1 . 1 0 `S83 1 . 1 0 `S92 1 . 1 0 ]
+[v _RXB0CONbits RXB0CONbits `VES97  1 e 1 @3936 ]
+"23722
+[v _RXB0SIDH RXB0SIDH `VEuc  1 e 1 @3937 ]
+"23834
+[v _RXB0SIDL RXB0SIDL `VEuc  1 e 1 @3938 ]
+"24160
+[v _RXB0DLC RXB0DLC `VEuc  1 e 1 @3941 ]
+"24275
+[v _RXB0D0 RXB0D0 `VEuc  1 e 1 @3942 ]
+"24771
+[v _CANSTAT CANSTAT `VEuc  1 e 1 @3950 ]
+"24880
+[v _CANCON CANCON `VEuc  1 e 1 @3951 ]
+"24984
+[v _BRGCON1 BRGCON1 `VEuc  1 e 1 @3952 ]
+"25046
+[v _BRGCON2 BRGCON2 `VEuc  1 e 1 @3953 ]
+"25117
+[v _BRGCON3 BRGCON3 `VEuc  1 e 1 @3954 ]
+"25435
+[v _ECANCON ECANCON `VEuc  1 e 1 @3959 ]
+"25506
+[v _PORTA PORTA `VEuc  1 e 1 @3968 ]
+"25715
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+"25889
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+"26059
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+"26838
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"27060
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"27282
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"27504
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"29246
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"29258
+[v _RCREG RCREG `VEuc  1 e 1 @4014 ]
+"29270
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+"30274
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @4034 ]
+"30400
+[v _ADRESL ADRESL `VEuc  1 e 1 @4035 ]
+"30407
+[v _ADRESH ADRESH `VEuc  1 e 1 @4036 ]
+"31713
+[v _TMR0 TMR0 `VEus  1 e 2 @4054 ]
+"32495
+[v _ACQT0 ACQT0 `VEb  1 e 0 @32259 ]
+"32498
+[v _ACQT1 ACQT1 `VEb  1 e 0 @32260 ]
+"32501
+[v _ACQT2 ACQT2 `VEb  1 e 0 @32261 ]
+"32504
+[v _ADCS0 ADCS0 `VEb  1 e 0 @32256 ]
+"32507
+[v _ADCS1 ADCS1 `VEb  1 e 0 @32257 ]
+"32510
+[v _ADCS2 ADCS2 `VEb  1 e 0 @32258 ]
+"32519
+[v _ADFM ADFM `VEb  1 e 0 @32263 ]
+"32531
+[v _ADON ADON `VEb  1 e 0 @32272 ]
+"34757
+[v _BRG16 BRG16 `VEb  1 e 0 @32195 ]
+"34760
+[v _BRGH BRGH `VEb  1 e 0 @32098 ]
+"34919
+[v _CREN CREN `VEb  1 e 0 @32092 ]
+"35492
+[v _GIE GIE `VEb  1 e 0 @32663 ]
+"35504
+[v _GO GO `VEb  1 e 0 @32273 ]
+"35507
+[v _GODONE GODONE `VEb  1 e 0 @32273 ]
+"36086
+[v _PEIE PEIE `VEb  1 e 0 @32662 ]
+"36122
+[v _PSA PSA `VEb  1 e 0 @32427 ]
+"36284
+[v _RCIF RCIF `VEb  1 e 0 @31989 ]
+"36377
+[v _RX9 RX9 `VEb  1 e 0 @32094 ]
+"36665
+[v _RXB0FUL RXB0FUL `VEb  1 e 0 @31495 ]
+"36671
+[v _RXB0IF RXB0IF `VEb  1 e 0 @32032 ]
+"38864
+[v _SENDB SENDB `VEb  1 e 0 @32099 ]
+"38885
+[v _SPEN SPEN `VEb  1 e 0 @32095 ]
+"38963
+[v _SYNC SYNC `VEb  1 e 0 @32100 ]
+"38975
+[v _T0CS T0CS `VEb  1 e 0 @32429 ]
+"38987
+[v _T0PS0 T0PS0 `VEb  1 e 0 @32424 ]
+"38990
+[v _T0PS1 T0PS1 `VEb  1 e 0 @32425 ]
+"38993
+[v _T0PS2 T0PS2 `VEb  1 e 0 @32426 ]
+"39098
+[v _TMR0IE TMR0IE `VEb  1 e 0 @32661 ]
+"39101
+[v _TMR0IF TMR0IF `VEb  1 e 0 @32658 ]
+"39107
+[v _TMR0ON TMR0ON `VEb  1 e 0 @32431 ]
+"39185
+[v _TRISB2 TRISB2 `VEb  1 e 0 @31898 ]
+"39188
+[v _TRISB3 TRISB3 `VEb  1 e 0 @31899 ]
+"39221
+[v _TRISC6 TRISC6 `VEb  1 e 0 @31910 ]
+"39224
+[v _TRISC7 TRISC7 `VEb  1 e 0 @31911 ]
+"39308
+[v _TX9 TX9 `VEb  1 e 0 @32102 ]
+"39605
+[v _TXB0REQ TXB0REQ `VEb  1 e 0 @31235 ]
+"40331
+[v _TXEN TXEN `VEb  1 e 0 @32101 ]
+"40340
+[v _TXIF TXIF `VEb  1 e 0 @31988 ]
+"40355
+[v _VCFG0 VCFG0 `VEb  1 e 0 @32268 ]
+"40361
+[v _VCFG1 VCFG1 `VEb  1 e 0 @32269 ]
+"16 C:\Users\nanda\OneDrive\Desktop\micro\ECU2.X\ecu2_sensor.c
+[v _cur_ind_status cur_ind_status `VEE10483  1 e 1 0 ]
+"12 C:\Users\nanda\OneDrive\Desktop\micro\ECU2.X\timer0.c
+[v _blink blink `VEuc  1 e 1 0 ]
+"13
+[v _timer timer `VEui  1 e 2 0 ]
+"36 C:\Users\nanda\OneDrive\Desktop\micro\ECU2.X\main.c
+[v _main main `(i  1 e 2 0 ]
+{
+"39
+[v main@rpm rpm `ul  1 a 4 39 ]
+"40
+[v main@can_tx_data can_tx_data `[2]uc  1 a 2 43 ]
+"68
+} 0
+"37 C:\Users\nanda\OneDrive\Desktop\micro\ECU2.X\ecu2_sensor.c
+[v _process_indicator process_indicator `(E10483  1 e 1 0 ]
+{
+"40
+[v process_indicator@key key `uc  1 a 1 1 ]
+"63
+} 0
+"17 C:\Users\nanda\OneDrive\Desktop\micro\ECU2.X\digital_keypad.c
+[v _read_digital_keypad read_digital_keypad `(uc  1 e 1 0 ]
+{
+[v read_digital_keypad@detection_type detection_type `uc  1 p 1 wreg ]
+[v read_digital_keypad@detection_type detection_type `uc  1 p 1 wreg ]
+"19
+[v read_digital_keypad@once once `uc  1 s 1 once ]
+"21
+[v read_digital_keypad@detection_type detection_type `uc  1 p 1 0 ]
+"40
+} 1
+"21 C:\Users\nanda\OneDrive\Desktop\micro\ECU2.X\main.c
+[v _init_config init_config `(v  1 e 1 0 ]
+{
+"32
+} 0
+"12 C:\Users\nanda\OneDrive\Desktop\micro\ECU2.X\uart.c
+[v _init_uart init_uart `(v  1 e 1 0 ]
+{
+"56
+} 0
+"15 C:\Users\nanda\OneDrive\Desktop\micro\ECU2.X\timer0.c
+[v _init_timer0 init_timer0 `(v  1 e 1 0 ]
+{
+"29
+} 0
+"12 C:\Users\nanda\OneDrive\Desktop\micro\ECU2.X\digital_keypad.c
+[v _init_digital_keypad init_digital_keypad `(v  1 e 1 0 ]
+{
+"15
+} 0
+"23 C:\Users\nanda\OneDrive\Desktop\micro\ECU2.X\can.c
+[v _init_can init_can `(v  1 e 1 0 ]
+{
+"56
+} 0
+"12 C:\Users\nanda\OneDrive\Desktop\micro\ECU2.X\adc.c
+[v _init_adc init_adc `(v  1 e 1 0 ]
+{
+"49
+} 0
+"17 C:\Users\nanda\OneDrive\Desktop\micro\ECU2.X\ecu2_sensor.c
+[v _get_rpm get_rpm `(ul  1 e 4 0 ]
+{
+"24
+[v get_rpm@rpm rpm `ul  1 a 4 33 ]
+"23
+[v get_rpm@adc_val adc_val `ul  1 a 4 29 ]
+"30
+} 0
+"51 C:\Users\nanda\OneDrive\Desktop\micro\ECU2.X\adc.c
+[v _read_adc read_adc `(us  1 e 2 0 ]
+{
+[v read_adc@channel channel `uc  1 p 1 wreg ]
+"53
+[v read_adc@reg_val reg_val `us  1 a 2 4 ]
+"51
+[v read_adc@channel channel `uc  1 p 1 wreg ]
+"56
+[v read_adc@channel channel `uc  1 p 1 6 ]
+"64
+} 1
+"15 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+{
+"17
+[v ___lmul@product product `ul  1 a 4 8 ]
+"15
+[v ___lmul@multiplier multiplier `ul  1 p 4 0 ]
+[v ___lmul@multiplicand multiplicand `ul  1 p 4 4 ]
+"129
+} 0
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"10
+[v ___lldiv@quotient quotient `ul  1 a 4 20 ]
+"11
+[v ___lldiv@counter counter `uc  1 a 1 24 ]
+"7
+[v ___lldiv@dividend dividend `ul  1 p 4 12 ]
+[v ___lldiv@divisor divisor `ul  1 p 4 16 ]
+"30
+} 0
+"72 C:\Users\nanda\OneDrive\Desktop\micro\ECU2.X\can.c
+[v _can_transmit can_transmit `(v  1 e 1 0 ]
+{
+"87
+[v can_transmit@i i `i  1 a 2 13 ]
+"73
+[v can_transmit@ptr ptr `*.39uc  1 a 2 11 ]
+"72
+[v can_transmit@msg_id msg_id `us  1 p 2 4 ]
+[v can_transmit@data data `*.30Cuc  1 p 1 6 ]
+[v can_transmit@len len `uc  1 p 1 7 ]
+"91
+} 0
+"65
+[v _set_msg_id_std set_msg_id_std `(v  1 s 1 set_msg_id_std ]
+{
+[v set_msg_id_std@id id `ui  1 p 2 0 ]
+"68
+} 0
+"39 C:\Users\nanda\OneDrive\Desktop\micro\ECU2.X\timer0.c
+[v _isr isr `IIH(v  1 e 1 0 ]
+{
+"53
+} 0
