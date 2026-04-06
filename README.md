@@ -1,2 +1,9 @@
-# CAN-Based-Automotive-Dashboard
-CAN-Based Distributed Automotive Dashboard using PIC18F4580 Implemented a multi-node system using Controller Area Network (CAN) with three PIC18F4580 ECUs. Transmitted real-time vehicle parameters (speed, gear, RPM, indicator) across nodes using CAN message IDs and filtering. 
+# CAN Automotive Dashboard
+
+3-node CAN system using PIC18F4580
+
+- ECU1: Speed & Gear
+- ECU2: RPM & Indicator
+- ECU3: Dashboard Display
+
+Technologies: Embedded C, CAN, MPLAB X
